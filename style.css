@@ -18,18 +18,18 @@ body{
    margin-left: 200px;
    font-size: 30px;
 }
- #login {
+ #login,#dis {
     font-weight: normal;
    margin-top: 10px;
    margin-left: 200px;
    position: relative;
 }
-#dis {
+/*#dis {
     margin-top: 1px;
     margin-left: -680px;
     color: rgb(200, 194, 192);
 
-}
+}*/
 div{
 
     width: 150px;
@@ -92,11 +92,15 @@ div{
         height: 300px;
         width: 400px;
         position: absolute;
-        border: 1px solid #eeeff0;
+        border: none #eeeff0;
+        
     }
     #two {
         box-shadow: 0 8px 16px rgba(0, 0, 00, 0.2);
 
+    }
+    #two:active {
+        border: none;
     }
     input {
         padding: 10px;
