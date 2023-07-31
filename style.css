@@ -18,18 +18,18 @@ body{
    margin-left: 200px;
    font-size: 30px;
 }
- #login,#dis {
+ #login {
     font-weight: normal;
    margin-top: 10px;
    margin-left: 200px;
    position: relative;
 }
-/*#dis {
+#dis {
     margin-top: 1px;
     margin-left: -680px;
     color: rgb(200, 194, 192);
 
-}*/
+}
 div{
 
     width: 150px;
