@@ -99,7 +99,7 @@ div{
         box-shadow: 0 8px 16px rgba(0, 0, 00, 0.2);
 
     }
-    #two:active {
+    input:active {
         border: none;
     }
     input {
